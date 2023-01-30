@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <title>NUWA</title>
+</head>
+<body>
+    <header class="row container-fluid">
+        <nav class="col-md- navbar navbar-expand-lg row h-100" data-aos="flip-up" data-aos-duration="1000">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/favicon.ico" class="rounded-circle" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" aria-current="page" href="./index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./paginas/clases.html">CLASES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./paginas/productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./paginas/nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./paginas/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row h-100">
+            <section class="col-12 container" id="sectionUno">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-aos="fade-up" data-aos-duration="2000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/sebiUno.jpg" class="d-block rounded-3 border border border border-dark" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/sebiDos.jpg" class="d-block rounded-3 border border-dark" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/sebiTres.jpg" class="d-block rounded-3 border border-dark" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/sebiCuatro.jpg" class="d-block rounded-3 border border-dark" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+            
+            <section class="row col-md-10  col-lg-11 col-xl-12 container" id="sectionDos">
+              <div class="d-flex flex-row justify-content-center bg-black" id="nuestrasClases" data-aos="fade-up" data-aos-duration="1000">
+                <h1>NUESTRAS CLASES</h1>
+              </div>
+                <div class="row col-md-12 col-lg-6 bg-black" id="clases" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./assets/claseCrossfit.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CROSSFIT</h5>
+                          <p class="card-text">CrossFit es una técnica de entrenamiento que conecta movimientos de diferentes disciplinas, tales como la halterofilia, el entrenamiento metabólico o el gimnástico.</p>
+                          <p class="card-text"><small class="text-muted">En todos los horarios</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./assets/claseFuncional.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">FUNCIONAL</h5>
+                          <p class="card-text">El entrenamiento funcional se basa en realizar ejercicios que se adaptan a los movimientos naturales del cuerpo humano para trabajar de forma global músculos y articulaciones.</p>
+                          <p class="card-text"><small class="text-muted">En todos los horarios</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row col-6 bg-black" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./assets/claseGap.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">GAP</h5>
+                          <p class="card-text">El GAP es un ejercicio que consiste en trabajar tres zonas del cuerpo en concreto: glúteos, abdominales y piernas.</p>
+                          <p class="card-text"><small class="text-muted">En todos los horarios</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./assets/claseCore.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">CORE</h5>
+                          <p class="card-text">En "CORE" se trabaja puntualmente los músculos abdominales, lumbares, de la pelvis, los glúteos y la musculatura profunda de la columna.</p>
+                          <p class="card-text"><small class="text-muted">En todos los horarios</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container-fluid row" data-aos="flip-up" data-aos-duration="500" >
+        <div class="row col-6" id="footerInfo">
+          <ul class="row col">
+            <H1 class="d-flex justify-content-center">Sobre Nosotros</H1>
+            <li class="row col">
+              <a href="https://www.google.com/maps/place/CrosFit+%26+Fitness+Center+Nuwa,+Av.+Hip%C3%B3lito+Yrigoyen+9385,+Buenos+Aires,+Provincia+de+Buenos+Aires/@-34.7645571,-58.4036335,15z/data=!4m6!3m5!1s0x95bcd2ed1975cf05:0x68328c215382acbe!8m2!3d-34.7645571!4d-58.4036335!16s%2Fg%2F11b7hqwdr_">Direcc: Av. Hipólito Yrigoyen 9385, Buenos Aires, Provincia de Buenos Aires</a>
+
+              <a href="https://api.whatsapp.com/send?phone=541132808382&text=Hola%2C+Nuwa%21">Tel: 011 3280-8382</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row col-6" id="footerInfo">
+          <h1>NUWA</h1>
+          <p>Te invitamos a conocer nuestras nuevas instalaciones completamente, el box entero, vení, te esperamos para disfrutar la experiencia de pertenecer al mejor gimnasio de zona sur.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
